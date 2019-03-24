@@ -23,8 +23,6 @@ public class TextReader {
 
             String result = builder.toString();
 
-            //System.out.println(result);
-
             return result;
         } catch (IOException e) {
             throw new FileReaderException(e);

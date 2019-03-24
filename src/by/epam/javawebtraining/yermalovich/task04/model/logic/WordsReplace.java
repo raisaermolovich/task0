@@ -33,14 +33,12 @@ public class WordsReplace {
                         String lastChar2 = "";
 
                         if (firstWord.matches(".*[,:;]$|\n")) {
-                            //System.out.println("TRUE Start");
 
                             lastChar1 = firstWord.charAt(firstWord.length() - 1) + "";
                             firstWord = firstWord.replaceAll("[,:;]", "");
 
                         }
                         if (lastWord.matches(".*[.!?:;]$|\n")) {
-                            //System.out.println("TRUE End");
 
                             lastChar2 = lastWord.charAt(lastWord.length() - 1) + " ";
                             lastWord = lastWord.replaceAll("[.!?:;]", "");
@@ -63,7 +61,6 @@ public class WordsReplace {
                 }
             }
         }
-        //System.out.println(text);
         return text;
     }
 }

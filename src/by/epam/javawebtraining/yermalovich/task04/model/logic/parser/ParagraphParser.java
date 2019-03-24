@@ -40,7 +40,6 @@ public class ParagraphParser {
         SentenceParser parser = SentenceParser.getInstance();
         for (String string : list2) {
                 list.add(new Sentence(parser.parseSentence(string)));
-                //System.out.println("**" + string);
         }
         return list;
     }

@@ -29,7 +29,6 @@ public class TextParser {
         for (String string : strings) {
             Boolean codeBlock = this.recognizeCode(string);
                 list.add(new Paragraph(parser.parseParagraph(string, codeBlock), codeBlock));
-            //System.out.println("**" + string);
         }
 
         return list;

@@ -25,7 +25,6 @@ public class VowelsRemover {
                 }
             }
         }
-        //System.out.println(text);
         return text;
     }
 }

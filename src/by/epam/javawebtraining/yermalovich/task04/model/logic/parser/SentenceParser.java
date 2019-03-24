@@ -26,7 +26,6 @@ public class SentenceParser {
 
         for (String string : strings) {
             list.add(new Word(string));
-            //System.out.println("**" + string);
         }
 
         return list;
